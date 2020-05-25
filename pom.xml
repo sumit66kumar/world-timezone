@@ -33,6 +33,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				  <cloudHubDeployment>
+				  <username>sam66kumar</username>
+				  <environment>sandbox</environment>
+				  <workers>1</workers>
+				  <workerType>Micro</workerType>
+				  <applicationName>worldtimezone-service</applicationName>
+				  <password>Success@66</password>
+				  <muleVersion>4.3.0</muleVersion>
+				  </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
